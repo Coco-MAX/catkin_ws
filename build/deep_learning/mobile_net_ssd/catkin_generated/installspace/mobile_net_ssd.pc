@@ -1,0 +1,8 @@
+prefix=/home/arg/duckiepond-nctu/catkin_ws/install
+
+Name: mobile_net_ssd
+Description: Description of mobile_net_ssd
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/arg/duckiepond-nctu/catkin_ws/install/lib 
+Requires: 

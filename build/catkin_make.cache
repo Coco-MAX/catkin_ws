@@ -1,0 +1,2 @@
+analysis:control:deep_learning/end_to_end:deep_learning/mobile_net_ssd:duckiepond:joystick_control:localization/localization:localization/mocap:sensor/nmea_msgs:sensor/nmea_navsat_driver:sensor/pi_camera:sensor/razor_imu_9dof:sensor/rosserial_msgs:sensor/rosserial_python:tracking:vrx
+-DCATKIN_DEVEL_PREFIX=/home/arg/duckiepond-nctu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/arg/duckiepond-nctu/catkin_ws/install -G Unix Makefiles

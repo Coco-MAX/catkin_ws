@@ -1,0 +1,8 @@
+prefix=/home/arg/duckiepond-nctu/catkin_ws/devel
+
+Name: rosserial_python
+Description: Description of rosserial_python
+Version: 0.8.0
+Cflags: 
+Libs: -L/home/arg/duckiepond-nctu/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/arg/duckiepond-nctu/catkin_ws/devel
+
+Name: mocap
+Description: Description of mocap
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/arg/duckiepond-nctu/catkin_ws/devel/lib 
+Requires: 

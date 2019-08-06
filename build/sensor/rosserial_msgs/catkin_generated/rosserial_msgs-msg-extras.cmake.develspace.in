@@ -1,0 +1,2 @@
+set(rosserial_msgs_MESSAGE_FILES "/home/arg/duckiepond-nctu/catkin_ws/src/sensor/rosserial_msgs/msg/Log.msg;/home/arg/duckiepond-nctu/catkin_ws/src/sensor/rosserial_msgs/msg/TopicInfo.msg")
+set(rosserial_msgs_SERVICE_FILES "/home/arg/duckiepond-nctu/catkin_ws/src/sensor/rosserial_msgs/srv/RequestMessageInfo.srv;/home/arg/duckiepond-nctu/catkin_ws/src/sensor/rosserial_msgs/srv/RequestParam.srv;/home/arg/duckiepond-nctu/catkin_ws/src/sensor/rosserial_msgs/srv/RequestServiceInfo.srv")

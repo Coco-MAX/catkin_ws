@@ -1,0 +1,23 @@
+<launch>
+    <arg name="sim" default="true"/>
+    <arg name="factor" default="gazebo"/>
+    <arg name="moos_folder" default="mutil_following"/>
+    <arg name="root" default="$(env HOME)/duckiepond-nctu/moos"/>
+    <arg name="veh" default="BRIAN"/> 
+
+
+    <!-- MOOS ROS Bridge -->
+    <node pkg="moos_behavior" type="Bridge" name="Bridge" 
+        args="$(arg root)/missions/$(arg moos_folder)/vehicle.xml $(arg root)/missions/$(arg moos_folder)/duckiepond_$(arg veh).moos" 
+        respawn="false" output="screen" />
+
+        
+    <!-- MOOS Behavior -->
+    <node pkg="moos_behavior" type="moos_waypt.py" name="moos_waypt" respawn="false" output="screen">
+        <param name="sim" value="$(arg sim)"/>
+        <param name="vname" value="$(arg veh)"/>
+        <rosparam command="load" file="$(find moos_behavior)/config/$(arg factor).yaml" />
+    </node>
+
+
+</launch>
